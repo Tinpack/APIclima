@@ -51,15 +51,9 @@ Entre na pasta do backend:
 
 cd ApiClima
 
-Configure a variável de ambiente com sua API key:
+Abra o arquivo Program.cs e localize a parte onde a API key é usada.
 
-    Windows (PowerShell):
-
-$Env:CLIMA_API_KEY="SUA_CHAVE_AQUI"
-
-    Linux/macOS (Terminal):
-
-export CLIMA_API_KEY="SUA_CHAVE_AQUI"
+Substitua o espaço reservado "SUA_CHAVE_AQUI" pela sua chave real:
 
 Rode a API:
 
