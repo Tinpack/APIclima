@@ -55,6 +55,8 @@ Abra o arquivo Program.cs e localize a parte onde a API key é usada.
 
 Substitua o espaço reservado "SUA_CHAVE_AQUI" pela sua chave real:
 
+var apiKey = "SUA_CHAVE_AQUI"; // <- coloque sua chave de API aqui
+
 Rode a API:
 
 dotnet run
