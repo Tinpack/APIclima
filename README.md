@@ -39,27 +39,29 @@ ClimaAPI/
 ---
 
 ## 🛠️ Como rodar o projeto
-
-### 1. Clonar o repositório
 ```bash
+1. Clonar o repositório
+
 git clone https://github.com/seu-usuario/ClimaAPI.git
 cd ClimaAPI
 
-###2. Rodar o backend (.NET)
+2. Rodar o backend (.NET)
 
 Entre na pasta do backend:
+
 cd ApiClima
 
-    Configure a variável de ambiente com sua API key:
+Configure a variável de ambiente com sua API key:
 
     Windows (PowerShell):
 
 $Env:CLIMA_API_KEY="SUA_CHAVE_AQUI"
 
     Linux/macOS (Terminal):
+
 export CLIMA_API_KEY="SUA_CHAVE_AQUI"
 
-    Rode a API:
+Rode a API:
 
 dotnet run
 
@@ -68,13 +70,21 @@ https://localhost:5001 ou http://localhost:5000
 3. Rodar o frontend (React)
 
 Entre na pasta do frontend:
+
+cd ../client
+
 Configure a URL da API no arquivo .env (crie o arquivo se não existir):
+
 REACT_APP_API_URL=http://localhost:5000
 
-    Rode o frontend:
+Instale as dependências:
+
+npm install
+# ou
+yarn install
+
+Rode o frontend:
 
 npm start
 # ou
 yarn start
-
-O aplicativo abrirá automaticamente em: http://localhost:3000
